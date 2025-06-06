@@ -1,6 +1,6 @@
 # kickstart.nvim config
 
-Here's my personal configurations for 🇳 🇻 🇮 🇲 kicks
+Here's my personal configurations for 🇳 🇻 🇮 🇲 kickstart
 
 > [!warning]
 >
