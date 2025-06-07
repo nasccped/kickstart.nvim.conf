@@ -1015,6 +1015,9 @@ require('lazy').setup({
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
 
+-- load my global configs:
+local my_global_configs = require 'custom.configs.globals'
+my_global_configs.setup()
 -- load my java personal configs:
 local java_config = require 'custom.configs.java'
 java_config.setup()
