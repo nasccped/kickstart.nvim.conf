@@ -2,7 +2,7 @@ local M = {}
 
 function M.setup()
   -- set catppuccin theme as default
-  vim.cmd 'colorscheme catppuccin'
+  vim.cmd 'colorscheme kanagawa'
 end
 
 return M

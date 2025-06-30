@@ -271,6 +271,11 @@ require('lazy').setup({
     'rose-pine/neovim',
   },
 
+  -- NOTE: add kanagawa plugin
+  {
+    'rebelot/kanagawa.nvim',
+  },
+
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
   -- keys can be used to configure plugin behavior/loading/etc.
