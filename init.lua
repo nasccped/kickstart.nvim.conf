@@ -249,33 +249,6 @@ require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'NMAC427/guess-indent.nvim', -- Detect tabstop and shiftwidth automatically
 
-  -- NOTE: add rustaceanvim plugin
-  {
-    'mrcjkb/rustaceanvim',
-    ersion = '^6',
-    lazy = false,
-  },
-
-  -- NOTE: add catppuccin plugin
-  {
-    'catppuccin/nvim',
-  },
-
-  -- NOTE: add vague plugin
-  {
-    'vague2k/vague.nvim',
-  },
-
-  -- NOTE: add rose-pine plugin
-  {
-    'rose-pine/neovim',
-  },
-
-  -- NOTE: add kanagawa plugin
-  {
-    'rebelot/kanagawa.nvim',
-  },
-
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
   -- keys can be used to configure plugin behavior/loading/etc.
@@ -1012,6 +985,8 @@ require('lazy').setup({
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
   -- { import = 'custom.plugins' },
+  { import = 'custom.plugins.colorscheme' },
+  { import = 'custom.plugins.toolkit' },
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
