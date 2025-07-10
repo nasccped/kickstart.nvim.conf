@@ -1023,3 +1023,5 @@ my_global_configs.setup()
 -- load my java personal configs:
 local java_config = require 'custom.configs.java'
 java_config.setup()
+-- load my personal keymaps
+require 'custom.configs.keymaps'
