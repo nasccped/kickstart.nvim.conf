@@ -101,4 +101,14 @@ return {
 The code above will fetch the catppuccin plugin + override the mocha
 background to black. You can remove these lines if you don't want it.
 
+## Keymaps
+
+### Normal mode
+
+- `<leader>` (space)
+    - `n`: use the `N` letter to call _new_ related actions
+        - `t`: create a new terminal buffer
+    - `c`: use the `C` letter to call _close_ related actions
+        - `b`: close the current buffer
+
 </details>
