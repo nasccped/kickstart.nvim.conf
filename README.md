@@ -112,7 +112,7 @@ background to black. You can remove these lines if you don't want it.
 
 - `<leader>` (space)
     - `n`: use the `N` letter to call _new_ related actions
-        - `t`: create a new terminal buffer
+        - `s`: create a new shell in the current buffer
     - `c`: use the `C` letter to call _close_ related actions
         - `b`: close the current buffer
 
