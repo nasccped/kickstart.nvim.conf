@@ -65,6 +65,7 @@ nvim
 I've set **catpuccin-mocha** as my default colorscheme:
 
 ```lua
+-- file path: lua/custom/configs/globals.lua
 local function set_colorscheme()
   vim.cmd 'colorscheme catppuccin-mocha'
 end
