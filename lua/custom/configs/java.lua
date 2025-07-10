@@ -1,6 +1,4 @@
-local M = {}
-
-function M.setup()
+local function tab_style()
   vim.api.nvim_create_autocmd('FileType', {
     pattern = 'java',
     callback = function()
@@ -13,4 +11,4 @@ function M.setup()
   })
 end
 
-return M
+tab_style()

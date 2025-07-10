@@ -1,8 +1,7 @@
-local M = {}
-
-function M.setup()
+local function set_colorscheme()
   -- set catppuccin theme as default
   vim.cmd 'colorscheme catppuccin-mocha'
 end
 
-return M
+-- call colorscheme set
+set_colorscheme()
