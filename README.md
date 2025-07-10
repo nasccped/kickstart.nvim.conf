@@ -49,3 +49,56 @@ nvim
 > - `rm -rf` with `Remove-Item -Recurse -Force`
 > - `~/.config/nvim` with `$env:LOCALAPPDATA\nvim`
 > - `~/.local/share/nvim` with `$env:LOCALAPPDATA\nvim-data`
+>
+> ---
+>
+> All the content bellow is just some additional info. Not so
+> important...
+
+<details> <summary> Changes that I've made </summary>
+
+## Colors
+
+### Default color
+
+I've set **catpuccin-mocha** as my default colorscheme:
+
+```lua
+local function set_colorscheme()
+  vim.cmd 'colorscheme catppuccin-mocha'
+end
+
+set_colorscheme()
+```
+
+You can disable it by removing this line the function call or
+replacing the `catppuccin-mocha` by other one.
+
+### Color override
+
+I've also changed some catppuccin default colors to fit my
+preferences. Here's the sample:
+
+```lua
+-- file path: lua/custom/plugins/colorscheme/catppuccin.lua
+return {
+  'catppuccin/nvim',
+  name = 'catppuccin',
+  priority = 1000,
+  opts = {
+    -- override here:
+    color_overrides = {
+      mocha = {
+        base = '#000000',
+        mantle = '#000000',
+        crust = '#000000',
+      },
+    },
+  },
+}
+```
+
+The code above will fetch the catppuccin plugin + override the mocha
+background to black. You can remove these lines if you don't want it.
+
+</details>
