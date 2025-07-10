@@ -6,12 +6,13 @@ Here's my personal configurations for 🇳 🇻 🇮 🇲 kickstart
 >
 > I'm not the _'absolute'_ owner of this repository.
 >
-> It was cloned from
-> [nvim-lua/kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
-> and modified to my preferences!
+> It was cloned from [nvim-lua/kickstart.nvim] and modified it to my
+> preferences!
 >
-> You can find the original README at `README.old.md`
-> (dependencies as well).
+> You can find the original README at `README.old.md` (dependencies
+> as well).
+
+[nvim-lua/kickstart.nvim]: https://github.com/nvim-lua/kickstart.nvim
 
 ## Clone / install
 
