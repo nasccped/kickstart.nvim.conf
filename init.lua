@@ -1018,10 +1018,10 @@ require('lazy').setup({
 -- vim: ts=2 sts=2 sw=2 et
 
 -- load my global configs:
-local my_global_configs = require 'custom.configs.globals'
-my_global_configs.setup()
+require 'custom.configs.globals'
+
 -- load my java personal configs:
-local java_config = require 'custom.configs.java'
-java_config.setup()
+require 'custom.configs.java'
+
 -- load my personal keymaps
 require 'custom.configs.keymaps'
