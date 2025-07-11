@@ -108,6 +108,12 @@ background to black. You can remove these lines if you don't want it.
 > NOTE: You can change any of these mappings at
 > `lua/custom/configs/keymaps.lua`.
 
+### Insert mode
+
+- `<Tab>` (blink.cmp suggestion): go to the next completion
+- `<S-Tab>` (`Shift` + `Tab` | blink.cmp suggestion): go to the previous
+  completion
+
 ### Normal mode
 
 - `<leader>` (space)
