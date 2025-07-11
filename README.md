@@ -106,7 +106,8 @@ background to black. You can remove these lines if you don't want it.
 ## Keymaps
 
 > NOTE: You can change any of these mappings at
-> `lua/custom/configs/keymaps.lua`.
+> `lua/custom/configs/keymaps.lua` and/or
+> `lua/custom/plugins/tools/blink.cmp.lua`.
 
 ### Insert mode
 
