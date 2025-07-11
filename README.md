@@ -113,7 +113,12 @@ background to black. You can remove these lines if you don't want it.
 - `<leader>` (space)
     - `n`: use the `N` letter to call _new_ related actions
         - `s`: create a new shell in the current buffer
+        - `t`: create a new tab
     - `c`: use the `C` letter to call _close_ related actions
         - `b`: close the current buffer without closing the tab too
+        - `t`: close the current tab
+
+- `<Tab>`: move to the next tab
+- `<S-Tab>`(Shift-Tab): move to the previous tab
 
 </details>
