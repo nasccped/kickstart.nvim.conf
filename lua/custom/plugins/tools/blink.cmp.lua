@@ -8,7 +8,12 @@ return {
   ---@type blink.cmp.Config
   opts = {
     -- 'default' (recommended) for mappings similar to built-in completions (C-y to accept)
-    keymap = { preset = 'default' },
+    keymap = {
+      preset = 'default',
+
+      ['<Tab>'] = { 'select_next', 'fallback' },
+      ['<S-Tab>'] = { 'select_prev', 'fallback' },
+    },
 
     appearance = {
       nerd_font_variant = 'mono',
