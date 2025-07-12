@@ -24,6 +24,12 @@ return {
     },
 
     completion = {
+      list = {
+        selection = {
+          preselect = false,
+          auto_insert = true,
+        },
+      },
       accept = { auto_brackets = { enabled = true } },
       documentation = {
         auto_show = true,
