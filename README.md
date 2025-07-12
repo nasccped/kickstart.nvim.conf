@@ -105,9 +105,15 @@ background to black. You can remove these lines if you don't want it.
 
 ## Keymaps
 
-> NOTE: You can change any of these mappings at
-> `lua/custom/configs/keymaps.lua` and/or
-> `lua/custom/plugins/tools/blink.cmp.lua`.
+> NOTE:
+>
+> - You can change any of these mappings at
+>   `lua/custom/configs/keymaps.lua` and/or
+>   `lua/custom/plugins/tools/blink.cmp.lua`.
+> - A lot of `lua/custom/plugins/tools/blink.cmp.lua` config was
+>   get from [this reddit post].
+
+[this reddit post]: https://www.reddit.com/r/neovim/comments/1hlnv7x/blinkcmp_i_finally_have_a_configuration_that/
 
 ### Insert mode
 
