@@ -1,6 +1,9 @@
 return {
   'saghen/blink.cmp',
-  dependencies = { 'rafamadriz/friendly-snippets' },
+  dependencies = {
+    'rafamadriz/friendly-snippets',
+    'onsails/lspkind.nvim',
+  },
 
   version = '1.*',
 
@@ -16,10 +19,23 @@ return {
     },
 
     appearance = {
+      use_nvim_cmp_as_default = false,
       nerd_font_variant = 'mono',
     },
 
-    completion = { documentation = { auto_show = true } },
+    completion = {
+      accept = { auto_brackets = { enabled = true } },
+      documentation = {
+        auto_show = true,
+        auto_show_delay_ms = 250,
+        treesitter_highlighting = true,
+        window = { border = 'rounded' },
+      },
+
+      menu = {
+        border = 'rounded',
+      },
+    },
 
     sources = {
       default = { 'lsp', 'path', 'snippets', 'buffer' },
